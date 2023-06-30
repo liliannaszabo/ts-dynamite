@@ -42,13 +42,13 @@ class Bot {
                 case "W":
                     break
                 case "R":
-                    votes[0] += votes[0];
+                    votes[0] += 1;
                     break;
                 case "P":
-                    votes[1] += votes[1];
+                    votes[1] += 1;
                     break;
                 case "S":
-                    votes[2] += votes[2];
+                    votes[2] += 1;
                     break;
 
             }
