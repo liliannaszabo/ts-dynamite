@@ -65,7 +65,7 @@ class Bot {
             }
         }
 
-        let index: number =  Math.floor(Math.random() * maxIndexes.length)
+        let index: number =  maxIndexes[gamestate.rounds.length % maxIndexes.length];
 
         function getRPSMoveFromIndex(number: number): BotSelection {
             switch (number){
